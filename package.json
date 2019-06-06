@@ -22,7 +22,7 @@
         },
         "remote": {
             "url": "https://interactive.guim.co.uk",
-            "path": "atoms/2018/01/us-interactive-template",
+            "path": "atoms/2019/06/election-2020-graphics",
             "bucket": "gdn-cdn"
         },
         "template": "immersive"
@@ -41,6 +41,7 @@
         "aws-sdk": "^2.5.0",
         "browser-sync": "^2.24.6",
         "browser-sync-reuse-tab": "^1.0.3",
+        "d3-node": "^2.1.0",
         "deasync": "^0.1.9",
         "emojic": "^1.1.14",
         "filesize": "^3.3.0",
