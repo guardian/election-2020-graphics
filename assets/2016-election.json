@@ -1,0 +1,257 @@
+[
+  {
+    "State": "AL",
+    "Trump": "1318255",
+    "Clinton": "729547"
+  },
+  {
+    "State": "AK",
+    "Trump": "163387",
+    "Clinton": "116454"
+  },
+  {
+    "State": "AZ",
+    "Trump": "1252401",
+    "Clinton": "1161167"
+  },
+  {
+    "State": "AR",
+    "Trump": "684872",
+    "Clinton": "380494"
+  },
+  {
+    "State": "CA",
+    "Trump": "4483814",
+    "Clinton": "8753792"
+  },
+  {
+    "State": "CO",
+    "Trump": "1202484",
+    "Clinton": "1338870"
+  },
+  {
+    "State": "CT",
+    "Trump": "673215",
+    "Clinton": "897572"
+  },
+  {
+    "State": "DE",
+    "Trump": "185127",
+    "Clinton": "235603"
+  },
+  {
+    "State": "DC",
+    "Trump": "12723",
+    "Clinton": "282830"
+  },
+  {
+    "State": "FL",
+    "Trump": "4617886",
+    "Clinton": "4504975"
+  },
+  {
+    "State": "GA",
+    "Trump": "2089104",
+    "Clinton": "1877963"
+  },
+  {
+    "State": "HI",
+    "Trump": "128847",
+    "Clinton": "266891"
+  },
+  {
+    "State": "ID",
+    "Trump": "409055",
+    "Clinton": "189765"
+  },
+  {
+    "State": "IL",
+    "Trump": "2146015",
+    "Clinton": "3090729"
+  },
+  {
+    "State": "IN",
+    "Trump": "1557286",
+    "Clinton": "1033126"
+  },
+  {
+    "State": "IA",
+    "Trump": "800983",
+    "Clinton": "653669"
+  },
+  {
+    "State": "KS",
+    "Trump": "671018",
+    "Clinton": "427005"
+  },
+  {
+    "State": "KY",
+    "Trump": "1202971",
+    "Clinton": "628854"
+  },
+  {
+    "State": "LA",
+    "Trump": "1178638",
+    "Clinton": "780154"
+  },
+  {
+    "State": "ME",
+    "Trump": "335593",
+    "Clinton": "357735"
+  },
+  {
+    "State": "MD",
+    "Trump": "943169",
+    "Clinton": "1677928"
+  },
+  {
+    "State": "MA",
+    "Trump": "1090893",
+    "Clinton": "1995196"
+  },
+  {
+    "State": "MI",
+    "Trump": "2279543",
+    "Clinton": "2268839"
+  },
+  {
+    "State": "MN",
+    "Trump": "1322951",
+    "Clinton": "1367716"
+  },
+  {
+    "State": "MS",
+    "Trump": "700714",
+    "Clinton": "485131"
+  },
+  {
+    "State": "MO",
+    "Trump": "1594511",
+    "Clinton": "1071068"
+  },
+  {
+    "State": "MT",
+    "Trump": "279240",
+    "Clinton": "177709"
+  },
+  {
+    "State": "NE",
+    "Trump": "495961",
+    "Clinton": "284494"
+  },
+  {
+    "State": "NV",
+    "Trump": "512058",
+    "Clinton": "539260"
+  },
+  {
+    "State": "NH",
+    "Trump": "345790",
+    "Clinton": "348526"
+  },
+  {
+    "State": "NJ",
+    "Trump": "1601933",
+    "Clinton": "2148278"
+  },
+  {
+    "State": "NM",
+    "Trump": "319667",
+    "Clinton": "385234"
+  },
+  {
+    "State": "NY",
+    "Trump": "2819533",
+    "Clinton": "4556118"
+  },
+  {
+    "State": "NC",
+    "Trump": "2362631",
+    "Clinton": "2189316"
+  },
+  {
+    "State": "ND",
+    "Trump": "216794",
+    "Clinton": "93758"
+  },
+  {
+    "State": "OH",
+    "Trump": "2841005",
+    "Clinton": "2394164"
+  },
+  {
+    "State": "OK",
+    "Trump": "949136",
+    "Clinton": "420375"
+  },
+  {
+    "State": "OR",
+    "Trump": "782403",
+    "Clinton": "1002106"
+  },
+  {
+    "State": "PA",
+    "Trump": "2970733",
+    "Clinton": "2926441"
+  },
+  {
+    "State": "RI",
+    "Trump": "180543",
+    "Clinton": "252525"
+  },
+  {
+    "State": "SC",
+    "Trump": "1155389",
+    "Clinton": "855373"
+  },
+  {
+    "State": "SD",
+    "Trump": "227721",
+    "Clinton": "117458"
+  },
+  {
+    "State": "TN",
+    "Trump": "1522925",
+    "Clinton": "870695"
+  },
+  {
+    "State": "TX",
+    "Trump": "4685047",
+    "Clinton": "3877868"
+  },
+  {
+    "State": "UT",
+    "Trump": "515231",
+    "Clinton": "310676"
+  },
+  {
+    "State": "VT",
+    "Trump": "95369",
+    "Clinton": "178573"
+  },
+  {
+    "State": "VA",
+    "Trump": "1769443",
+    "Clinton": "1981473"
+  },
+  {
+    "State": "WA",
+    "Trump": "1221747",
+    "Clinton": "1742718"
+  },
+  {
+    "State": "WV",
+    "Trump": "489371",
+    "Clinton": "188794"
+  },
+  {
+    "State": "WI",
+    "Trump": "1405284",
+    "Clinton": "1382536"
+  },
+  {
+    "State": "WY",
+    "Trump": "174419",
+    "Clinton": "55973"
+  }
+]
