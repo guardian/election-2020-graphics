@@ -6,6 +6,7 @@ module.exports = {
     compile: function() {
         fs.mkdirsSync('./.build');
         this.createStateMap();
+        this.createElectoralMap();
     },
 
     createStateMap: function() {
@@ -39,13 +40,18 @@ module.exports = {
                 }.bind(state));
         })
 
-        this.exportGraphic('2016-state', '2016 election results headline', 'Federal Election Commission', html.window.document.documentElement.outerHTML);
+        this.exportGraphic('2016-state', 'Federal Election Commission', html.window.document.documentElement.outerHTML);
     },
 
-    exportGraphic: function(name, title, source, html) {
+    createElectoralMap: function() {
+        var preRenderedHTML = fs.readFileSync('./assets/electoral-map.svg', 'utf8');
+
+        this.exportGraphic('electoral-map', 'National Archives', preRenderedHTML);
+    },
+
+    exportGraphic: function(name, source, html) {
         var template = fs.readFileSync('./assets/template.html', 'utf8');
             template = template.replace('__HTML__', html);
-            template = template.replace('__TITLE__', title);
             template = template.replace('__SOURCE__', source);
 
         fs.mkdirsSync('./.build');
