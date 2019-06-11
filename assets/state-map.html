@@ -1,6 +1,6 @@
 <style>
     .uit-map__label {
-        font-family: 'Guardian Sans Web';
+        font-family: 'Guardian Text Sans Web';
         fill: #fff;
     }
 
@@ -8,7 +8,57 @@
         stroke: white;
         stroke-width: 2px;
     }
+
+    .key {
+        font-family: 'Guardian Text Sans Web';
+        font-size: 14px;
+        line-height: 18px;
+        color: #767676;
+        margin-bottom: 6px;
+        padding-bottom: 4px;
+    }
+
+    .key__entry {
+        position: relative;
+        display: inline-block;
+        margin-right: 8px;
+    }
+
+    .key__entry:before {
+        width: 8px;
+        height: 8px;
+        background-color: #b51000;
+        border-radius: 6px;
+        content: '';
+        position: relative;
+        display: inline-block;
+        margin-right: 4px;
+        vertical-align: baseline;
+        top: -1px;
+    }
+
+    .key__entry--rep:before {
+        background-color: #e11f26;
+    }
+
+    .key__entry--just-rep:before {
+        background-color: #fd7a7e;
+    }
+
+    .key__entry--dem:before {
+        background-color: #2e4ea2;
+    }
+
+    .key__entry--just-dem:before {
+        background-color: #5f75cf;
+    }
 </style>
+<div class='key'>
+    <div class='key__entry key__entry--dem'>Clinton</div>
+    <div class='key__entry key__entry--just-dem'>Clinton by >5%</div>
+    <div class='key__entry key__entry--just-rep'>Trump by >5%</div>
+    <div class='key__entry key__entry--rep'>Trump</div>
+</div>
 <svg class='uit-map' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 700.5 421.3" style="enable-background:new 0 0 700.5 421.3;" xml:space="preserve">
 <g id="DE">

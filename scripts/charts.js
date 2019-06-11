@@ -24,20 +24,31 @@ module.exports = {
         var body = d3.select(html.window.document).select('body');
         var container = body.append('div').attr('class', 'container').html(preRenderedHTML);
 
-        var minVal = d3.min(valueArray);
-        var maxVal = d3.max(valueArray);
-        var ramp = d3.scaleQuantize()
-            .domain([-5, 5])
-            .clamp(true)
-            .ticks(2)
-            .range(['#2e4ea2', '#e11f26']);
-
         data.forEach(function(state) {
             container.select('#' + state.State)
-                .attr('fill', ramp(state.difference));
+                .attr('fill', function() {
+                    if (state.difference > 5) {
+                        return '#e11f26';
+                    } else if (state.difference > 0) {
+                        return '#fd7a7e'
+                    } else if (state.difference < -5) {
+                        return '#2e4ea2';
+                    } else {
+                        return '#5f75cf';
+                    }
+                }.bind(state));
         })
 
+        this.exportGraphic('2016-state', '2016 election results headline', 'Federal Election Commission', html.window.document.documentElement.outerHTML);
+    },
+
+    exportGraphic: function(name, title, source, html) {
+        var template = fs.readFileSync('./assets/template.html', 'utf8');
+            template = template.replace('__HTML__', html);
+            template = template.replace('__TITLE__', title);
+            template = template.replace('__SOURCE__', source);
+
         fs.mkdirsSync('./.build');
-        fs.writeFileSync('./.build/master.html', html.window.document.documentElement.outerHTML);
+        fs.writeFileSync('./.build/' + name + '.html', template);
     }
 }
