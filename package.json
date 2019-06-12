@@ -22,7 +22,7 @@
         },
         "remote": {
             "url": "https://interactive.guim.co.uk",
-            "path": "atoms/2019/06/election-2020-graphics",
+            "path": "embeds/2019/06/election-2020-graphics",
             "bucket": "gdn-cdn"
         },
         "template": "immersive"
